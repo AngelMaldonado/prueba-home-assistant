@@ -27,6 +27,18 @@ La prueba evalúa criterio técnico: el diseño del dispositivo, de su API y de 
 - Un documento breve donde expliques tu arquitectura, las decisiones de diseño que tomaste y los trade-offs que consideraste.
 - Evidencia de que funciona: capturas o un video corto del dispositivo operando desde Home Assistant.
 
+## Entrega
+
+La rama `main` está protegida: no admite commits directos ni force push, y todo cambio entra por Pull Request.
+
+Para entregar tu solución:
+
+1. Crea una rama con tu nombre a partir de `main`, siguiendo el formato `nombre-apellido` (por ejemplo, `git checkout -b ana-perez`).
+2. Trabaja y haz tus commits únicamente en esa rama.
+3. Publica la rama en el repositorio (`git push -u origin nombre-apellido`) y abre un Pull Request hacia `main` cuando termines.
+
+Solo se evaluará el contenido de tu rama, así que asegúrate de que todo lo que quieres mostrar esté ahí. El historial de commits también se revisa: commits pequeños y con mensajes claros cuentan a favor.
+
 ## Consideraciones
 
 - Puedes usar el lenguaje, framework y herramientas que prefieras.
