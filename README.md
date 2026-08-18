@@ -33,9 +33,9 @@ La rama `main` está protegida: no admite commits directos ni force push, y todo
 
 Para entregar tu solución:
 
-1. Crea una rama con tu nombre a partir de `main`, siguiendo el formato `nombre-apellido` (por ejemplo, `git checkout -b ana-perez`).
+1. Crea una rama a partir de `main` nombrada con tu nombre y apellido (por ejemplo, `ana-perez`).
 2. Trabaja y haz tus commits únicamente en esa rama.
-3. Publica la rama en el repositorio (`git push -u origin nombre-apellido`) y abre un Pull Request hacia `main` cuando termines.
+3. Publica la rama en el repositorio y abre un Pull Request hacia `main` cuando termines.
 
 Solo se evaluará el contenido de tu rama, así que asegúrate de que todo lo que quieres mostrar esté ahí. El historial de commits también se revisa: commits pequeños y con mensajes claros cuentan a favor.
 
