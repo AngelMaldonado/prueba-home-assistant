@@ -53,6 +53,8 @@ Solo se evaluará el contenido de tu rama, así que asegúrate de que todo lo qu
 - El realismo de la simulación y de la integración frente a cómo se comporta un dispositivo real.
 - La claridad con la que comunicas y justificas tus decisiones.
 
-## Alcance sugerido
+## Tiempo y alcance
 
-Entre 4 y 8 horas de trabajo. Preferimos un alcance acotado y bien resuelto sobre uno amplio e incompleto; si dejas cosas fuera, anótalas como trabajo pendiente.
+No hay límite de tiempo ni fecha de entrega: trabaja al ritmo que necesites y avísanos cuando consideres que el proyecto está terminado. Tú defines cuándo está listo.
+
+Dicho eso, preferimos un alcance acotado y bien resuelto sobre uno amplio e incompleto; si dejas cosas fuera, anótalas como trabajo pendiente.
