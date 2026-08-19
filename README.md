@@ -12,9 +12,9 @@ La prueba evalúa criterio técnico: el diseño del dispositivo, de su API y de 
 
    Un proceso que se ejecute en tu computadora y se comporte como un dispositivo IoT real: mantiene un estado interno, lo actualiza con el tiempo y responde a comandos. El tipo de dispositivo lo eliges tú (por ejemplo un termostato, un foco, un sensor ambiental, una cerradura, etc.).
 
-   ![Termostato simulado corriendo en una computadora de escritorio](assets/termostato-simulado.svg)
+   ![Termostato simulado corriendo en una computadora de escritorio](assets/termostato-simulado.jpg)
 
-   *Referencia ilustrativa: un termostato simulado corriendo en una máquina de escritorio, con su propia interfaz web (izquierda) y la misma entidad controlable desde Home Assistant (derecha). Es un ejemplo del tipo de resultado esperado, no un diseño a replicar ni una elección de dispositivo obligatoria.*
+   *Referencia ilustrativa: un termostato simulado corriendo en una máquina de escritorio, con su propia interfaz web (izquierda) y la misma entidad controlable desde Home Assistant (derecha). Es un ejemplo del tipo de resultado esperado, no un diseño a replicar ni una elección de dispositivo obligatoria. Fotografía base: [Pexels](https://www.pexels.com/photo/close-up-of-a-computer-on-a-table-6483591/).*
 
 2. **Servidor web propio**
 
