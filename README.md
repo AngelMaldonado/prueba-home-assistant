@@ -12,6 +12,10 @@ La prueba evalúa criterio técnico: el diseño del dispositivo, de su API y de 
 
    Un proceso que se ejecute en tu computadora y se comporte como un dispositivo IoT real: mantiene un estado interno, lo actualiza con el tiempo y responde a comandos. El tipo de dispositivo lo eliges tú (por ejemplo un termostato, un foco, un sensor ambiental, una cerradura, etc.).
 
+   ![Termostato simulado corriendo en una computadora de escritorio](assets/termostato-simulado.svg)
+
+   *Referencia ilustrativa: un termostato simulado corriendo en una máquina de escritorio, con su propia interfaz web (izquierda) y la misma entidad controlable desde Home Assistant (derecha). Es un ejemplo del tipo de resultado esperado, no un diseño a replicar ni una elección de dispositivo obligatoria.*
+
 2. **Servidor web propio**
 
    El dispositivo debe levantar su propio servidor web y exponer una interfaz para consultar su estado y operarlo. Piensa en cómo lo haría un dispositivo comercial que vive en la red local.
@@ -29,15 +33,15 @@ La prueba evalúa criterio técnico: el diseño del dispositivo, de su API y de 
 
 ## Entrega
 
-La rama `main` está protegida: no admite commits directos ni force push, y todo cambio entra por Pull Request.
+La entrega se hace en un **fork privado** de este repositorio, no por Pull Request: así el trabajo de cada participante queda aislado y nadie puede ver las soluciones de los demás.
 
 Para entregar tu solución:
 
-1. Crea una rama a partir de `main` nombrada con tu nombre y apellido (por ejemplo, `ana-perez`).
-2. Trabaja y haz tus commits únicamente en esa rama.
-3. Publica la rama en el repositorio y abre un Pull Request hacia `main` cuando termines.
+1. Crea un fork privado de este repositorio en tu cuenta.
+2. Trabaja y haz tus commits ahí; puedes usar `main` o las ramas que prefieras.
+3. Da acceso de lectura a los evaluadores y avísanos cuando consideres que está terminado.
 
-Solo se evaluará el contenido de tu rama, así que asegúrate de que todo lo que quieres mostrar esté ahí. El historial de commits también se revisa: commits pequeños y con mensajes claros cuentan a favor.
+Solo se evaluará el contenido de tu fork, así que asegúrate de que todo lo que quieres mostrar esté ahí. El historial de commits también se revisa: commits pequeños y con mensajes claros cuentan a favor.
 
 ## Consideraciones
 
@@ -51,10 +55,11 @@ Solo se evaluará el contenido de tu rama, así que asegúrate de que todo lo qu
 - Que funcione de extremo a extremo y sea fácil de levantar siguiendo tus instrucciones.
 - La calidad del diseño: separación de responsabilidades, manejo de errores y de estado, claridad del código.
 - El realismo de la simulación y de la integración frente a cómo se comporta un dispositivo real.
+- La experiencia de uso en los dos frentes: para el usuario final que opera el dispositivo (interfaz clara, estados comprensibles, respuesta inmediata a sus acciones) y para el usuario integrador que consume tu API o instala la integración (contratos predecibles, errores informativos, documentación suficiente para arrancar sin preguntar).
 - La claridad con la que comunicas y justificas tus decisiones.
 
 ## Tiempo y alcance
 
-No hay límite de tiempo ni fecha de entrega: trabaja al ritmo que necesites y avísanos cuando consideres que el proyecto está terminado. Tú defines cuándo está listo.
+El tiempo sugerido de entrega es de 1 a 2 semanas. No es una fecha límite rígida: trabaja al ritmo que necesites y avísanos cuando consideres que el proyecto está terminado.
 
 Dicho eso, preferimos un alcance acotado y bien resuelto sobre uno amplio e incompleto; si dejas cosas fuera, anótalas como trabajo pendiente.
